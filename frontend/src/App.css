@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* JOIN PAGE */
+.joinContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+}
+
+.joinContainer input {
+  margin: 10px;
+  padding: 12px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
+
+.joinContainer button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: orange;
+  border: none;
+  color: white;
+}
+
+/* CHAT */
+.chatContainer {
+  width: 400px;
+  height: 550px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  background: #1e1e2f;  /* 🔥 FIXED DARK BACKGROUND */
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* HEADER */
+.chatHeader {
+  background: #4e54c8;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* BODY */
+.chatBody {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* MY MESSAGE */
+.myMsg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.myMsg p {
+  background: #4caf50;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+/* OTHER MESSAGE */
+.otherMsg {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.otherMsg p {
+  background: #eeeeee;
+  color: black;  /* 🔥 VERY IMPORTANT FIX */
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 70%;
+}
+
+/* TIME */
+span {
+  font-size: 10px;
+  margin: 0 8px;
+  color: #ccc;
+}
+
+/* FOOTER */
+.chatFooter {
+  display: flex;
+  padding: 10px;
+  background: #2c2c54;
+}
+
+.chatFooter input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.chatFooter button {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: orange;
+  border: none;
+  color: white;
+}
