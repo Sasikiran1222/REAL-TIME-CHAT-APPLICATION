@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 
 // MongoDB
-mongoose.connect("mongodb+srv://chatuser:chat123@mydb.kbl3wrm.mongodb.net/chat-app?retryWrites=true&w=majority")
+mongoose.connect("URL")
   .then(() => console.log("MongoDB Atlas connected ✅"))
   .catch((err) => console.log(err));
 const server = http.createServer(app);
